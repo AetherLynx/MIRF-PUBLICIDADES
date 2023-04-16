@@ -14,7 +14,7 @@
 body {
     margin-top: 60px;
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: scroll;
     font-family: Comfortaa;
     background-color: #3c393f;
     color: #fff;
