@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuelas Helenísticas</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link href="style2.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="titlebar">Escuelas Helenísticas<br>Precios y Suscripciones</div>
+    <p>En esta sección podrás consultar el precio de suscripción a cualquiera de nuestras escuelas disponibles,<br>
+        Recuerda que usamos tarjetas de débito para la renovación automática a la suscripción.<br><br>
+        A continuación encontrarás la Escuela Estóica, Cínica y Epricúrea:
+    </p>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+        <div class="roundbox" style="float: left">
+            <h2>Escuela Estóica</h2><br>
+            <div style="margin-left: 20px; margin-right: 20px; text-align:center">
+                <h1>180.000COP</h1>
+                <h3>Suscripción Mensual</h3>
+            </div>
+            <br><button onclick="notavailable()" class="custombt"
+                style="font-size:20px; letter-spacing:2px;">Comprar</button>
+        </div>
+        <div class="roundbox" style="float: left">
+            <h2>Escuela Cínica</h2><br>
+            <div style="margin-left: 20px; margin-right: 20px; text-align:center">
+                <h1>210.000COP</h1>
+                <h3>Suscripción Mensual</h3>
+            </div>
+            <br><button onclick="notavailable()" class="custombt"
+            style="font-size:20px; letter-spacing:2px;">Comprar</button>
+        </div>
+        <div class="roundbox" style="float: left">
+            <h2>Escuela Epricúrea</h2><br>
+            <div style="margin-left: 20px; margin-right: 20px; text-align:center">
+                <h1>850.000COP</h1>
+                <h3>Suscripción Anual</h3>
+            </div>
+            <br><button onclick="notavailable()" class="custombt"
+            style="font-size:20px; letter-spacing:2px;">Comprar</button>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Información</a></li>
+            <li><a style="color:#fff" href="#">Precios</a></li>
+            <li><a href="form.html">Formulario</a></li>
+        </ul>
+    </nav>
+    <script>
+        function notavailable() {
+            alert("No contamos con nuestro servicio de pagos en linea disponible al momento. Intentalo mas tarde.")
+        }
+    </script>
+</body>
+
+</html>
